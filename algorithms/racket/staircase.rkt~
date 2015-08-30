@@ -1,0 +1,3 @@
+#lang racket
+
+(for ([T (in-range (read))]) (printf "~a" T))

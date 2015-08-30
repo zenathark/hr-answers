@@ -1,0 +1,5 @@
+#lang racket
+
+(let ([T (read)])
+  (build-list T (lambda (i)
+		  (build-list T (lambda (j) (read))))))
